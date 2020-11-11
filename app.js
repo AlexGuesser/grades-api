@@ -23,7 +23,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: "https://grades-app-alex.herokuapp.com:8080",
+    origin: "https://grades-app-alex.herokuapp.com/",
   })
 );
 
